@@ -19,11 +19,12 @@ if(empty($_SESSION['email'])){
 
 <body onload="NextQuestion(0)">
     <div class="header">
-        <a href="index.html" class="logo">Quiz</a>
+        <a href="index.php" class="logo">Quiz</a>
         <div class="header-right">
-            <a href="index.html">Home</a>
-            <a class="active" href="attempt-quiz.html">Attempt</a>
-            <a href="profile.html">Profile</a>
+            <a href="index.php">Home</a>
+            <a class="active" href="attempt-quiz.php">Attempt</a>
+            <a href="profile.php">Profile</a>
+            <a href="logout.php">Logout</a>
         </div>
     </div>
     <main>

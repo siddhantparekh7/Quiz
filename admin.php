@@ -20,13 +20,7 @@ if(empty($_SESSION['email'])){
 	<meta charset="UTF-8" />
 
 	<script>
-		addEventListener("load", function () {
-			setTimeout(hideURLbar, 0);
-		}, false);
 
-		function hideURLbar() {
-			window.scrollTo(0, 1);
-		}
 	</script>
 	<!-- Meta tag Keywords -->
 
@@ -50,6 +44,7 @@ if(empty($_SESSION['email'])){
 		<div class="header-right">
 			<a href="admin-home.php">Home</a>
 			<a class="active" href="">Add Question</a>
+			<a href="logout.php">Logout</a>
 		</div>
 	</div>
 	<div class="main-bg">

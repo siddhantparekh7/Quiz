@@ -32,6 +32,7 @@ if(empty($_SESSION['email'])){
         <div class="header-right">
             <a class="active" href="admin-home.php">Home</a>
             <a href="admin.php">Add Question</a>
+            <a href="logout.php">Logout</a>
         </div>
     </div>
     <div class="justify-content: center" style="padding: 20px;">

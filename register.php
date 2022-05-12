@@ -24,7 +24,7 @@ if(empty($_SESSION['email'])){
 		<div class="header-right">
 			<a class="active" href="index.html">Home</a>
 			<a href="attempt-quiz.html">Attempt</a>
-			<a href="profile.html">Profile</a>
+			<a href="profile.php">Profile</a>
 		</div>
 	</div>
 	<main>
